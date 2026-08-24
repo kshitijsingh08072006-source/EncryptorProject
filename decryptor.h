@@ -1,1 +1,4 @@
-void decryptor();
+// guards to prevent multiple definition errors
+#pragma once
+
+inline void decryptor();
